@@ -1,4 +1,12 @@
 {
   "accentColor": "",
-  "cssTheme": ""
+  "cssTheme": "",
+  "nativeMenus": false,
+  "interfaceFontFamily": "LMU Vazir",
+  "textFontFamily": "LMU Vazir",
+  "monospaceFontFamily": "",
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "typography"
+  ]
 }

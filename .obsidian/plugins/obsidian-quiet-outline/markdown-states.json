@@ -84,7 +84,7 @@
         "ch": 25
       }
     },
-    "scroll": 62.806617262260765,
+    "scroll": 23.572894967120625,
     "expandedKeys": [
       "item-1-0",
       "item-2-2",
@@ -126,7 +126,7 @@
     "expandedKeys": [
       "item-1-0"
     ],
-    "scroll": 0,
+    "scroll": 19.849803251378678,
     "cursor": {
       "from": {
         "line": 12,
@@ -162,15 +162,15 @@
     ],
     "cursor": {
       "from": {
-        "line": 252,
+        "line": 37,
         "ch": 69
       },
       "to": {
-        "line": 252,
-        "ch": 69
+        "line": 30,
+        "ch": 0
       }
     },
-    "scroll": 246.89753587201622
+    "scroll": 205.38769817631965
   },
   "2026-09-25.md": {
     "expandedKeys": []

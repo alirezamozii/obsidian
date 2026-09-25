@@ -1,0 +1,64 @@
+/* ==========================================================================
+   Obsidian Clean Typography & High-Quality Font Rendering
+   ========================================================================== */
+
+/* متغیرهای فونت متن و محیط */
+:root {
+  --font-text: 'LMU Vazir', 'Vazirmatn', 'Vazir', sans-serif !important;
+  --font-interface: 'LMU Vazir', 'Vazirmatn', 'Vazir', sans-serif !important;
+  --line-height-normal: 1.75;
+}
+
+/* اعمال فقط به متون یادداشت (بدون دستکاری آیکون‌ها و کنترل‌های ابسیدین) */
+.markdown-source-view,
+.markdown-rendered,
+.cm-content,
+.cm-line {
+  font-family: 'LMU Vazir', 'Vazirmatn', 'Vazir', sans-serif !important;
+  line-height: 1.75 !important;
+  -webkit-font-smoothing: subpixel-antialiased !important;
+  text-rendering: optimizeLegibility !important;
+}
+
+/* تیترها */
+.markdown-rendered h1, .cm-header-1 { font-size: 1.65em !important; font-weight: 700; }
+.markdown-rendered h2, .cm-header-2 { font-size: 1.4em !important; font-weight: 600; }
+.markdown-rendered h3, .cm-header-3 { font-size: 1.2em !important; font-weight: 600; }
+
+/* ==========================================================================
+   بهینه‌سازی فرمول‌های ریاضی (KaTeX / Math)
+   بدون دستکاری فونت اصلی KaTeX تا کیفیت و نمادها سالم و شفاف بمانند
+   ========================================================================== */
+
+.math,
+.math-inline,
+.math-block,
+.katex {
+  direction: ltr !important;
+  text-align: left;
+}
+
+/* بزرگ‌تر و واضح‌تر شدن فرمول درون‌خطی */
+.math-inline,
+.math-inline .katex {
+  font-size: 1.25em !important;
+  vertical-align: -0.12em;
+}
+
+/* فرمول‌های بلوکی */
+.math-block,
+.katex-display {
+  font-size: 1.35em !important;
+  margin: 1em 0 !important;
+  padding: 0.5em 0.8em !important;
+  text-align: center !important;
+}
+
+/* بلوک‌های کد */
+code,
+kbd,
+pre,
+.cm-inline-code {
+  font-family: Consolas, 'Courier New', monospace !important;
+  direction: ltr !important;
+}

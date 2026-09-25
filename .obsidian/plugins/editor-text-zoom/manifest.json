@@ -1,0 +1,9 @@
+{
+  "id": "editor-text-zoom",
+  "name": "Editor Text & Image Zoom",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Zoom text and images in editor with Ctrl + Wheel / Touchpad without zooming the UI.",
+  "author": "Antigravity",
+  "isDesktopOnly": true
+}

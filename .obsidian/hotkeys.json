@@ -1,0 +1,59 @@
+{
+  "app:zoom-in": [],
+  "app:zoom-out": [],
+  "app:reset-zoom": [],
+  "editor-text-zoom:increase-text-font-size": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "="
+    },
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "+"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "="
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "+"
+    }
+  ],
+  "editor-text-zoom:decrease-text-font-size": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "-"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "-"
+    }
+  ],
+  "editor-text-zoom:reset-text-font-size": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "0"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "0"
+    }
+  ]
+}
