@@ -1,0 +1,21 @@
+# Obsidian workspace & temporary session data
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# Syncthing markers
+.stfolder/
+.stversions/
+
+# Plugins containing OAuth credentials or cloud sync data
+.obsidian/plugins/remotely-save/
+
+# Smart Connections local vectors, embeddings and caches
+.smart-env/
+
+# OS and system generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.tmp
