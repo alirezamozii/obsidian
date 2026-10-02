@@ -1,0 +1,8 @@
+.mjx-rtl {
+	direction: rtl;
+}
+
+.mjx-ltr,
+.mjx-rtl :where(:not(.mjx-rtl, mjx-mtext, mjx-c, mjx-utext)) {
+	direction: ltr;
+}
